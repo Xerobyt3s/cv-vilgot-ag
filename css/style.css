@@ -11,16 +11,16 @@ nav {
     display: flex;
     flex-direction: row;
     padding: 5px;
-    background-color: lightblue;
+    background-color: darkblue;
 }
 
 a {
     padding: 15px;
     border: 2px;
     border-style: solid;
-    color: black;
-    background-color: lightblue;
-    border-color: blue;
+    color: lightblue;
+    background-color: darkblue;
+    border-color: lightblue;
     font-family: Verdana;
     
 }
@@ -29,16 +29,16 @@ a:hover {
     animation-name: button_hover;
     animation-duration: 500ms;
     animation-fill-mode: forwards;
-} 
+}
 
 @keyframes button_hover {
     0% {
         transform: scale(1.0);
-        background-color: lightblue;
+        background-color: darkblue;
     }
 
     100% {
-        background-color: aqua;
+        background-color: blue;
         transform: scale(1.05);
     }
 }

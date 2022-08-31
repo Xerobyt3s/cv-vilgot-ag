@@ -4,7 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    font-family: VerDana;
 }
 
 nav {
@@ -21,6 +21,7 @@ a {
     color: black;
     background-color: lightblue;
     border-color: blue;
+    font-family: Verdana;
     
 }
 

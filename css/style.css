@@ -20,6 +20,16 @@ nav {
     background-color: skyblue;
 }
 
+p {
+    margin: 60px;
+    font-size: 20px;
+}
+
+img {
+    max-width: 500px;
+    max-height: 500px;
+}
+
 .onpage {
     padding: 15px 20px 15px 20px;
     border: 2px;
@@ -32,7 +42,7 @@ nav {
     margin: 5px;
 }
 
-a {
+a.button {
     padding: 15px 20px 15px 20px;
     border: 2px;
     border-style: solid;
@@ -44,7 +54,7 @@ a {
     margin: 5px;
 }
 
-a:hover {
+a.button:hover {
     animation-name: button_hover;
     animation-duration: 500ms;
     animation-fill-mode: forwards;
